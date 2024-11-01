@@ -1,26 +1,53 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using static UnityEditor.Searcher.SearcherWindow.Alignment;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float speed = 5f;
-    public float jump;
-    public Rigidbody2D rb;
+    public float speed = 10f;
+    public float stickRadius;
 
-    float horizontalMovement;
+    private Rigidbody2D rb;
+    private Vector2 movementInput;
+    private Animator animator;
+    private bool facingLeft = true;
 
-    void Start()
+    private void Awake()
     {
-       
+        rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
-        rb.linearVelocity = new Vector2(horizontalMovement * speed, rb.linearVelocity.y);
+        rb.linearVelocity = movementInput * speed;
+        SetPlayerDirection();
+        SetAnimation();
     }
 
     public void Move(InputAction.CallbackContext context)
     {
-        horizontalMovement = context.ReadValue<Vector2>().x;
+        movementInput = context.ReadValue<Vector2>();
+    }
+
+    private void SetAnimation()
+    {
+        bool isSlithering = movementInput != Vector2.zero;
+        animator.SetBool("slither", isSlithering);
+    }
+
+    private void SetPlayerDirection()
+    {
+        if ((movementInput.x < (-1) * stickRadius && facingLeft == false) || 
+            (movementInput.x > stickRadius && facingLeft == true))
+            Flip();
+    }
+
+    private void Flip()
+    {
+        facingLeft = !facingLeft;
+        Vector3 Scaler = transform.localScale;
+        Scaler.x *= -1;
+        transform.localScale = Scaler;
     }
 }
