@@ -1,0 +1,1859 @@
+fileFormatVersion: 2
+guid: 9e9aaa1f5606b06428765b8f9e6ce195
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7593083870547982864
+    second: CultistPack_EyesIntroTransit_0
+  - first:
+      213: -8442306630137149618
+    second: CultistPack_EyesIntroTransit_1
+  - first:
+      213: 1228268224668250034
+    second: CultistPack_EyesIntroTransit_2
+  - first:
+      213: 8834614535041232162
+    second: CultistPack_EyesIntroTransit_3
+  - first:
+      213: 6722910236356577600
+    second: CultistPack_EyesIntroTransit_4
+  - first:
+      213: -7507323913648659877
+    second: CultistPack_EyesIntroTransit_5
+  - first:
+      213: -6851986975243127657
+    second: CultistPack_EyesIntroTransit_6
+  - first:
+      213: 6216707656779952581
+    second: CultistPack_EyesIntroTransit_7
+  - first:
+      213: 4111701878707794375
+    second: CultistPack_EyesIntroTransit_8
+  - first:
+      213: 1025780967215114582
+    second: CultistPack_EyesIntroTransit_9
+  - first:
+      213: 258311781084806298
+    second: CultistPack_EyesIntroTransit_10
+  - first:
+      213: -5407040393331210479
+    second: CultistPack_EyesIntroTransit_11
+  - first:
+      213: -2279497580740034589
+    second: CultistPack_EyesIntroTransit_12
+  - first:
+      213: -1673123962042130235
+    second: CultistPack_EyesIntroTransit_13
+  - first:
+      213: 6601818093326752291
+    second: CultistPack_EyesIntroTransit_14
+  - first:
+      213: 646672445144932765
+    second: CultistPack_EyesIntroTransit_15
+  - first:
+      213: -6145708063465193279
+    second: CultistPack_EyesIntroTransit_16
+  - first:
+      213: -2980164963741522782
+    second: CultistPack_EyesIntroTransit_17
+  - first:
+      213: 2388767214817941801
+    second: CultistPack_EyesIntroTransit_18
+  - first:
+      213: 892005691225345652
+    second: CultistPack_EyesIntroTransit_19
+  - first:
+      213: -1773971227055304476
+    second: CultistPack_EyesIntroTransit_20
+  - first:
+      213: 1856440058599034414
+    second: CultistPack_EyesIntroTransit_21
+  - first:
+      213: -5591476227443134314
+    second: CultistPack_EyesIntroTransit_22
+  - first:
+      213: 6094895149784140888
+    second: CultistPack_EyesIntroTransit_23
+  - first:
+      213: -2585572337246014112
+    second: CultistPack_EyesIntroTransit_24
+  - first:
+      213: 4957733099658172192
+    second: CultistPack_EyesIntroTransit_25
+  - first:
+      213: 6121614463085162715
+    second: CultistPack_EyesIntroTransit_26
+  - first:
+      213: 8389448404500705323
+    second: CultistPack_EyesIntroTransit_27
+  - first:
+      213: 7842036453614389827
+    second: CultistPack_EyesIntroTransit_28
+  - first:
+      213: 2633153824334244237
+    second: CultistPack_EyesIntroTransit_29
+  - first:
+      213: -4141659015249835065
+    second: CultistPack_EyesIntroTransit_30
+  - first:
+      213: 9053216235936078171
+    second: CultistPack_EyesIntroTransit_31
+  - first:
+      213: 6791294560273863150
+    second: CultistPack_EyesIntroTransit_32
+  - first:
+      213: -7758239621962954082
+    second: CultistPack_EyesIntroTransit_33
+  - first:
+      213: 4586926386392564583
+    second: CultistPack_EyesIntroTransit_34
+  - first:
+      213: 6773623130612246866
+    second: CultistPack_EyesIntroTransit_35
+  - first:
+      213: -4657344246331371289
+    second: CultistPack_EyesIntroTransit_36
+  - first:
+      213: 889410647165008621
+    second: CultistPack_EyesIntroTransit_37
+  - first:
+      213: -8275436522774087909
+    second: CultistPack_EyesIntroTransit_38
+  - first:
+      213: -2549718248524907144
+    second: CultistPack_EyesIntroTransit_39
+  - first:
+      213: -2650188713883174679
+    second: CultistPack_EyesIntroTransit_40
+  - first:
+      213: 7074855661309821937
+    second: CultistPack_EyesIntroTransit_41
+  - first:
+      213: -8883772284940534823
+    second: CultistPack_EyesIntroTransit_42
+  - first:
+      213: -1950015305883231371
+    second: CultistPack_EyesIntroTransit_43
+  - first:
+      213: 1202695695407741367
+    second: CultistPack_EyesIntroTransit_44
+  - first:
+      213: 8690007190962786757
+    second: CultistPack_EyesIntroTransit_45
+  - first:
+      213: -4309806617280748146
+    second: CultistPack_EyesIntroTransit_46
+  - first:
+      213: -726789130219770312
+    second: CultistPack_EyesIntroTransit_47
+  - first:
+      213: 8890009550467091849
+    second: CultistPack_EyesIntroTransit_48
+  - first:
+      213: 2975181233287444973
+    second: CultistPack_EyesIntroTransit_49
+  - first:
+      213: -3306271521200726342
+    second: CultistPack_EyesIntroTransit_50
+  - first:
+      213: -7110838072338066689
+    second: CultistPack_EyesIntroTransit_51
+  - first:
+      213: -3605150716065218604
+    second: CultistPack_EyesIntroTransit_52
+  - first:
+      213: -3264842481533501476
+    second: CultistPack_EyesIntroTransit_53
+  - first:
+      213: 8081648167174046852
+    second: CultistPack_EyesIntroTransit_54
+  - first:
+      213: -3100552253135286016
+    second: CultistPack_EyesIntroTransit_55
+  - first:
+      213: -1168374373386239455
+    second: CultistPack_EyesIntroTransit_56
+  - first:
+      213: -7347071961104474703
+    second: CultistPack_EyesIntroTransit_57
+  - first:
+      213: 5980985911673343680
+    second: CultistPack_EyesIntroTransit_58
+  - first:
+      213: -402007418446574105
+    second: CultistPack_EyesIntroTransit_59
+  - first:
+      213: -3741036376349823265
+    second: CultistPack_EyesIntroTransit_60
+  - first:
+      213: -8754557325113884338
+    second: CultistPack_EyesIntroTransit_61
+  - first:
+      213: 7559574608138620599
+    second: CultistPack_EyesIntroTransit_62
+  - first:
+      213: 8777209373947147251
+    second: CultistPack_EyesIntroTransit_63
+  - first:
+      213: -1510100276837915381
+    second: CultistPack_EyesIntroTransit_64
+  - first:
+      213: -4802318168351566479
+    second: CultistPack_EyesIntroTransit_65
+  - first:
+      213: 6721888154392712804
+    second: CultistPack_EyesIntroTransit_66
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 463
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f54d3a1372ff9690800000000000000
+      internalID: -7593083870547982864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_1
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 416
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4700c169d6e6da80800000000000000
+      internalID: -8442306630137149618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_2
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 418
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bf2044517fab0110800000000000000
+      internalID: 1228268224668250034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_3
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 464
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22da2a0ac1bda9a70800000000000000
+      internalID: 8834614535041232162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_4
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 416
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0490fde8d339c4d50800000000000000
+      internalID: 6722910236356577600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_5
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 462
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b522d211da0a0d790800000000000000
+      internalID: -7507323913648659877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_6
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 417
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 794b70f362ad8e0a0800000000000000
+      internalID: -6851986975243127657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_7
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 417
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c1f1d22dae264650800000000000000
+      internalID: 6216707656779952581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_8
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 416
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c13faee213bf0930800000000000000
+      internalID: 4111701878707794375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_9
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 420
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 659a638da5e4c3e00800000000000000
+      internalID: 1025780967215114582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_10
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 416
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9cbbd04235b59300800000000000000
+      internalID: 258311781084806298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 416
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1170e45f86556f4b0800000000000000
+      internalID: -5407040393331210479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 367
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3efb0a117099d50e0800000000000000
+      internalID: -2279497580740034589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_13
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 367
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c0e8410f9ed7c8e0800000000000000
+      internalID: -1673123962042130235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_14
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 367
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32adc74f39e5e9b50800000000000000
+      internalID: 6601818093326752291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_15
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 370
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d91a5e2a92179f800800000000000000
+      internalID: 646672445144932765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_16
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 368
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c047efd31f06baa0800000000000000
+      internalID: -6145708063465193279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_17
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 368
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a42f1c41c354a6d0800000000000000
+      internalID: -2980164963741522782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_18
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 368
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 929925a202b962120800000000000000
+      internalID: 2388767214817941801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_19
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 366
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47e0d1b337a016c00800000000000000
+      internalID: 892005691225345652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_20
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 366
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e0da9161969167e0800000000000000
+      internalID: -1773971227055304476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_21
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 304
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2ec99fb56663c910800000000000000
+      internalID: 1856440058599034414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_22
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 304
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690f53dfef51762b0800000000000000
+      internalID: -5591476227443134314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_23
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 304
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85c822ab8da659450800000000000000
+      internalID: 6094895149784140888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_24
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 303
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 065ff5188a33e1cd0800000000000000
+      internalID: -2585572337246014112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_25
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 311
+        width: 36
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0275258acf76dc440800000000000000
+      internalID: 4957733099658172192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_26
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 320
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0b514abe754f450800000000000000
+      internalID: 6121614463085162715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_27
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 321
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b207bbbefde4d6470800000000000000
+      internalID: 8389448404500705323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_28
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 254
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34a895d0b9284dc60800000000000000
+      internalID: 7842036453614389827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_29
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 252
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d896762c377da8420800000000000000
+      internalID: 2633153824334244237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_30
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 245
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb4d3fa11fd586c0800000000000000
+      internalID: -4141659015249835065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_31
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 245
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b59d4c9533c73ad70800000000000000
+      internalID: 9053216235936078171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_32
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 245
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee19a26bb668f3e50800000000000000
+      internalID: 6791294560273863150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_33
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 248
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a89823b22355490800000000000000
+      internalID: -7758239621962954082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_34
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 241
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7638bcfee3908af30800000000000000
+      internalID: 4586926386392564583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_35
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 243
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 259238e595eb00e50800000000000000
+      internalID: 6773623130612246866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_36
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 243
+        width: 48
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e095b8651acd5fb0800000000000000
+      internalID: -4657344246331371289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_37
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 201
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea78b37542d75c00800000000000000
+      internalID: 889410647165008621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_38
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 201
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b17b1c2e35eb72d80800000000000000
+      internalID: -8275436522774087909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_39
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 196
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87d775f03c49d9cd0800000000000000
+      internalID: -2549718248524907144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_40
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 198
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e87e31f763a83bd0800000000000000
+      internalID: -2650188713883174679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_41
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 196
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f388816dbfee2260800000000000000
+      internalID: 7074855661309821937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_42
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 196
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dbb8a2dc2086b480800000000000000
+      internalID: -8883772284940534823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_43
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 198
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57b5142396720f4e0800000000000000
+      internalID: -1950015305883231371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_44
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 195
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b97ba1ec55d0b010800000000000000
+      internalID: 1202695695407741367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_45
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 135
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c15de0af7b199870800000000000000
+      internalID: 8690007190962786757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_46
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 135
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e856a5647bd7034c0800000000000000
+      internalID: -4309806617280748146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_47
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 135
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83ea2a2032de9e5f0800000000000000
+      internalID: -726789130219770312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_48
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 137
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98dcb69b598af5b70800000000000000
+      internalID: 8890009550467091849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_49
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 134
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9b1888197f94920800000000000000
+      internalID: 2975181233287444973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_50
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 136
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abe17df9193cd12d0800000000000000
+      internalID: -3306271521200726342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_51
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 135
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff257f2b27a315d90800000000000000
+      internalID: -7110838072338066689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_52
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 135
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dfff2f468ee7fdc0800000000000000
+      internalID: -3605150716065218604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_53
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 135
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf37989f03f0b2d0800000000000000
+      internalID: -3264842481533501476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_54
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 76
+        width: 48
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 484881c8038c72070800000000000000
+      internalID: 8081648167174046852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_55
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 93
+        width: 48
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00195583720a8f4d0800000000000000
+      internalID: -3100552253135286016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_56
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 76
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122c4ad92b919cfe0800000000000000
+      internalID: -1168374373386239455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_57
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 76
+        width: 42
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bd92235af4f90a90800000000000000
+      internalID: -7347071961104474703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_58
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 7
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cec7ef7ffab00350800000000000000
+      internalID: 5980985911673343680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_59
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 7
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ed8b620268cb6af0800000000000000
+      internalID: -402007418446574105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_60
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 7
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdeaadf8c3b251cc0800000000000000
+      internalID: -3741036376349823265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_61
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 7
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e410bc61f70918680800000000000000
+      internalID: -8754557325113884338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_62
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 10
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be4a23cd0109e860800000000000000
+      internalID: 7559574608138620599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_63
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 10
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f339550c69eec970800000000000000
+      internalID: 8777209373947147251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_64
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 7
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b056bdf8ccb0b0be0800000000000000
+      internalID: -1510100276837915381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_65
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 7
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1751005d11dba5db0800000000000000
+      internalID: -4802318168351566479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CultistPack_EyesIntroTransit_66
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 7
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466db7e89a1f84d50800000000000000
+      internalID: 6721888154392712804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 72861e4cac9faa84fb71b238f7e6fcde
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CultistPack_EyesIntroTransit_0: -7593083870547982864
+      CultistPack_EyesIntroTransit_1: -8442306630137149618
+      CultistPack_EyesIntroTransit_10: 258311781084806298
+      CultistPack_EyesIntroTransit_11: -5407040393331210479
+      CultistPack_EyesIntroTransit_12: -2279497580740034589
+      CultistPack_EyesIntroTransit_13: -1673123962042130235
+      CultistPack_EyesIntroTransit_14: 6601818093326752291
+      CultistPack_EyesIntroTransit_15: 646672445144932765
+      CultistPack_EyesIntroTransit_16: -6145708063465193279
+      CultistPack_EyesIntroTransit_17: -2980164963741522782
+      CultistPack_EyesIntroTransit_18: 2388767214817941801
+      CultistPack_EyesIntroTransit_19: 892005691225345652
+      CultistPack_EyesIntroTransit_2: 1228268224668250034
+      CultistPack_EyesIntroTransit_20: -1773971227055304476
+      CultistPack_EyesIntroTransit_21: 1856440058599034414
+      CultistPack_EyesIntroTransit_22: -5591476227443134314
+      CultistPack_EyesIntroTransit_23: 6094895149784140888
+      CultistPack_EyesIntroTransit_24: -2585572337246014112
+      CultistPack_EyesIntroTransit_25: 4957733099658172192
+      CultistPack_EyesIntroTransit_26: 6121614463085162715
+      CultistPack_EyesIntroTransit_27: 8389448404500705323
+      CultistPack_EyesIntroTransit_28: 7842036453614389827
+      CultistPack_EyesIntroTransit_29: 2633153824334244237
+      CultistPack_EyesIntroTransit_3: 8834614535041232162
+      CultistPack_EyesIntroTransit_30: -4141659015249835065
+      CultistPack_EyesIntroTransit_31: 9053216235936078171
+      CultistPack_EyesIntroTransit_32: 6791294560273863150
+      CultistPack_EyesIntroTransit_33: -7758239621962954082
+      CultistPack_EyesIntroTransit_34: 4586926386392564583
+      CultistPack_EyesIntroTransit_35: 6773623130612246866
+      CultistPack_EyesIntroTransit_36: -4657344246331371289
+      CultistPack_EyesIntroTransit_37: 889410647165008621
+      CultistPack_EyesIntroTransit_38: -8275436522774087909
+      CultistPack_EyesIntroTransit_39: -2549718248524907144
+      CultistPack_EyesIntroTransit_4: 6722910236356577600
+      CultistPack_EyesIntroTransit_40: -2650188713883174679
+      CultistPack_EyesIntroTransit_41: 7074855661309821937
+      CultistPack_EyesIntroTransit_42: -8883772284940534823
+      CultistPack_EyesIntroTransit_43: -1950015305883231371
+      CultistPack_EyesIntroTransit_44: 1202695695407741367
+      CultistPack_EyesIntroTransit_45: 8690007190962786757
+      CultistPack_EyesIntroTransit_46: -4309806617280748146
+      CultistPack_EyesIntroTransit_47: -726789130219770312
+      CultistPack_EyesIntroTransit_48: 8890009550467091849
+      CultistPack_EyesIntroTransit_49: 2975181233287444973
+      CultistPack_EyesIntroTransit_5: -7507323913648659877
+      CultistPack_EyesIntroTransit_50: -3306271521200726342
+      CultistPack_EyesIntroTransit_51: -7110838072338066689
+      CultistPack_EyesIntroTransit_52: -3605150716065218604
+      CultistPack_EyesIntroTransit_53: -3264842481533501476
+      CultistPack_EyesIntroTransit_54: 8081648167174046852
+      CultistPack_EyesIntroTransit_55: -3100552253135286016
+      CultistPack_EyesIntroTransit_56: -1168374373386239455
+      CultistPack_EyesIntroTransit_57: -7347071961104474703
+      CultistPack_EyesIntroTransit_58: 5980985911673343680
+      CultistPack_EyesIntroTransit_59: -402007418446574105
+      CultistPack_EyesIntroTransit_6: -6851986975243127657
+      CultistPack_EyesIntroTransit_60: -3741036376349823265
+      CultistPack_EyesIntroTransit_61: -8754557325113884338
+      CultistPack_EyesIntroTransit_62: 7559574608138620599
+      CultistPack_EyesIntroTransit_63: 8777209373947147251
+      CultistPack_EyesIntroTransit_64: -1510100276837915381
+      CultistPack_EyesIntroTransit_65: -4802318168351566479
+      CultistPack_EyesIntroTransit_66: 6721888154392712804
+      CultistPack_EyesIntroTransit_7: 6216707656779952581
+      CultistPack_EyesIntroTransit_8: 4111701878707794375
+      CultistPack_EyesIntroTransit_9: 1025780967215114582
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

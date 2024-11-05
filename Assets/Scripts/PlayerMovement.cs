@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-using static UnityEditor.Searcher.SearcherWindow.Alignment;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -38,16 +37,16 @@ public class PlayerMovement : MonoBehaviour
 
     private void SetPlayerDirection()
     {
-        if ((movementInput.x < (-1) * stickRadius && facingLeft == false) || 
-            (movementInput.x > stickRadius && facingLeft == true))
+        if ((movementInput.x < 0 && facingLeft == false) || 
+            (movementInput.x > 0 && facingLeft == true))
             Flip();
     }
 
     private void Flip()
     {
         facingLeft = !facingLeft;
-        Vector3 Scaler = transform.localScale;
-        Scaler.x *= -1;
-        transform.localScale = Scaler;
+        Vector3 currentScale = transform.localScale;
+        currentScale.x *= -1;
+        transform.localScale = currentScale;
     }
 }
