@@ -3,8 +3,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerAbility : MonoBehaviour
 {
-    private readonly string PLAYER_UNDETACTABLE = "Player Undetactable";
-    private readonly string PLAYER = "Player";
+    public Animator animator;
 
     public void Attack(InputAction.CallbackContext context)
     {
@@ -14,9 +13,9 @@ public class PlayerAbility : MonoBehaviour
 
     private void Hide()
     {
-        if (CompareTag(PLAYER))
-            tag = PLAYER_UNDETACTABLE;
-        else tag = PLAYER;
-        Debug.Log("hide");
+        if (CompareTag(GlobalConstants.PLAYER))
+            tag = GlobalConstants.PLAYER_UNDETACTABLE;
+        animator.SetLayerWeight(1, 1f);
+        animator.Play("Hide", 1);
     }
 }
