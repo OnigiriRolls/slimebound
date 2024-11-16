@@ -6,6 +6,8 @@ public class GlobalConstants : MonoBehaviour
     public static readonly string PLAYER_FOUND = "Player Found";
     public static readonly string PLAYER = "Player";
 
+    public static readonly string LASER_BEAM = "Laser Beam";
+
     public static readonly string ANIM_COND_SCAN = "scan";
     public static readonly string ANIM_COND_OPEN = "open";
 

@@ -4,17 +4,17 @@ using UnityEngine;
 public class EnemyAttack : MonoBehaviour
 {
     public float laserTime;
+    public float pauseAfterLaserTime;
     public GameObject scanLight;
     public GameObject player;
+    public GameObject laserBeamSpawner;
 
     Animator anim;
     bool scanningAnim = true;
-    LaserMovement laserMovement;
 
     public void Start()
     {
         anim = GetComponentInParent<Animator>();
-        laserMovement = GetComponentInParent<LaserMovement>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -37,14 +37,15 @@ public class EnemyAttack : MonoBehaviour
     private void EnableLaserAndStartAnim()
     {
         anim.SetBool(GlobalConstants.ANIM_COND_SCAN, false);
-        laserMovement.EnableLaser();
+        laserBeamSpawner.SetActive(true);
         anim.SetBool(GlobalConstants.ANIM_COND_OPEN, true);
     }
 
     private void DisableLaserAndStopAnim()
     {
         anim.SetBool(GlobalConstants.ANIM_COND_OPEN, false);
-        laserMovement.DisableLaser();
+        laserBeamSpawner.SetActive(false);
+        StartCoroutine(PauseAfterLaserTimeCoroutine()); 
         anim.SetBool(GlobalConstants.ANIM_COND_SCAN, true);
     }
 
@@ -54,5 +55,10 @@ public class EnemyAttack : MonoBehaviour
         ToggleScanLight();
         DisableLaserAndStopAnim();
         player.tag = GlobalConstants.PLAYER;
+    }
+
+    IEnumerator PauseAfterLaserTimeCoroutine()
+    {
+        yield return new WaitForSeconds(pauseAfterLaserTime);
     }
 }
