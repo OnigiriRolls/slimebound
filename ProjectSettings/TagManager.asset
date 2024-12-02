@@ -7,6 +7,7 @@ TagManager:
   - Player Undetactable
   - Player Found
   - Laser Beam
+  - Big Enemy
   layers:
   - Default
   - TransparentFX

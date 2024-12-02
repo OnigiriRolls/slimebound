@@ -10,6 +10,7 @@ public class GlobalConstants : MonoBehaviour
 
     public static readonly string ANIM_COND_SCAN = "scan";
     public static readonly string ANIM_COND_OPEN = "open";
+    public static readonly string ANIM_COND_DESTROY = "destroy";
 
     public static GlobalConstants Instance { get; private set; }
 

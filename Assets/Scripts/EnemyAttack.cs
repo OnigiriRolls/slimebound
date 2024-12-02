@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EnemyAttack : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class EnemyAttack : MonoBehaviour
     public GameObject scanLight;
     public GameObject player;
     public GameObject laserBeamSpawner;
+    [SerializeField] private Slider healthSlider;
 
     Animator anim;
     bool scanningAnim = true;
@@ -24,6 +26,7 @@ public class EnemyAttack : MonoBehaviour
             collision.tag = GlobalConstants.PLAYER_FOUND;
             ToggleScanLight();
             EnableLaserAndStartAnim();
+            healthSlider.gameObject.SetActive(true);
             StartCoroutine(LaserTimeCoroutine());
         }
     }
@@ -54,6 +57,7 @@ public class EnemyAttack : MonoBehaviour
         yield return new WaitForSeconds(laserTime);
         ToggleScanLight();
         DisableLaserAndStopAnim();
+        healthSlider.gameObject.SetActive(false);
         player.tag = GlobalConstants.PLAYER;
     }
 

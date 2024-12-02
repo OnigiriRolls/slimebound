@@ -1,14 +1,19 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DestroyCellZone : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public Animator cell;
+    public GameObject slimes;
+    public GameObject enemy;
+    public GameObject inventory;
+    [SerializeField] private Slider healthSlider;
+
     void Start()
     {
-        
+       healthSlider.value = 0;
     }
 
-    // Update is called once per frame
     void Update()
     {
         
@@ -17,6 +22,16 @@ public class DestroyCellZone : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag(GlobalConstants.LASER_BEAM))
-            Debug.Log("Cell shot");
+        {
+            healthSlider.value += 0.2f;
+
+            if (healthSlider.value >= 1)
+            {
+                Debug.Log("cell destroyed");
+                healthSlider.gameObject.SetActive(false);
+                enemy.SetActive(false);
+                cell.SetBool(GlobalConstants.ANIM_COND_DESTROY, true);
+            }
+        }
     }
 }
