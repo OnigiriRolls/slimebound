@@ -8,6 +8,7 @@ TagManager:
   - Player Found
   - Laser Beam
   - Big Enemy
+  - Simple Laser
   layers:
   - Default
   - TransparentFX

@@ -36,7 +36,7 @@ public class BigEnemyController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag(GlobalConstants.LASER_BEAM))
+        if (collision.CompareTag(GlobalConstants.SIMPLE_LASER))
         {
             Debug.Log("laser beam");
             //healthSlider.value += 0.2f;
