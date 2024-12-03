@@ -9,6 +9,7 @@ TagManager:
   - Laser Beam
   - Big Enemy
   - Simple Laser
+  - Minion
   layers:
   - Default
   - TransparentFX
@@ -19,7 +20,7 @@ TagManager:
   - Background
   - Player
   - Obstacles
-  - 
+  - Laser
   - 
   - 
   - 

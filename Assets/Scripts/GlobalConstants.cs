@@ -7,6 +7,7 @@ public class GlobalConstants : MonoBehaviour
     public static readonly string PLAYER = "Player";
 
     public static readonly string BIG_ENEMY = "Big Enemy";
+    public static readonly string MINION = "Minion";
 
     public static readonly string LASER_BEAM = "Laser Beam";
     public static readonly string SIMPLE_LASER = "Simple Laser";
@@ -14,6 +15,8 @@ public class GlobalConstants : MonoBehaviour
     public static readonly string ANIM_COND_SCAN = "scan";
     public static readonly string ANIM_COND_OPEN = "open";
     public static readonly string ANIM_COND_DESTROY = "destroy";
+
+    public static readonly string MESSAGE_NO_SWITCH_WHEN_IN_STEALTH = "Can't switch now!";
 
     public static GlobalConstants Instance { get; private set; }
 

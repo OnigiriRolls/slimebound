@@ -12,6 +12,8 @@ public class LaserBeamMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         target = FindFirstObjectByType<PlayerMovement>();
+        if (target == null)
+            Destroy(gameObject);
         moveDirection = (target.transform.position - transform.position).normalized * moveSpeed;
         var angle = Mathf.Atan2(moveDirection.y, moveDirection.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, angle);

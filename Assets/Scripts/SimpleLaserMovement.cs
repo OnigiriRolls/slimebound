@@ -17,12 +17,4 @@ public class SimpleLaserMovement : MonoBehaviour
         transform.rotation = Quaternion.Euler(0, 0, angle);
         Destroy(gameObject, laserBeamLife);
     }
-
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag(GlobalConstants.BIG_ENEMY))
-        {
-            Debug.Log("enemy shot");
-        }
-    }
 }
