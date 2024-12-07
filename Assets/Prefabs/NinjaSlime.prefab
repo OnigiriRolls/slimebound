@@ -16,13 +16,14 @@ GameObject:
   - component: {fileID: 8376188118754477222}
   - component: {fileID: 6854190851278672900}
   - component: {fileID: 2602131841387905358}
+  - component: {fileID: 1133455813983718309}
   m_Layer: 7
   m_Name: NinjaSlime
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1250501095475875926
 Transform:
   m_ObjectHideFlags: 0
@@ -259,7 +260,7 @@ MonoBehaviour:
     m_ActionName: 'Player/Previous[/Keyboard/1]'
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2690124624946434402, guid: b2ede797c5ecac44d8152e008a04bc98, type: 3}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: InventoryManager, Assembly-CSharp
         m_MethodName: SwitchSlime
         m_Mode: 0
@@ -357,3 +358,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 6854190851278672900}
+  cooldownText: {fileID: 0}
+  cooldownDuration: 5
+--- !u!114 &1133455813983718309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7110444690661431946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe1e07f2552618044bd8c1caf3e4b229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerLifeManagerObject: {fileID: 0}

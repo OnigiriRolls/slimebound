@@ -145,7 +145,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1250501095475875926
 Transform:
   m_ObjectHideFlags: 0
@@ -384,7 +384,7 @@ MonoBehaviour:
     m_ActionName: 'Player/Previous[/Keyboard/1]'
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2690124624946434402, guid: b2ede797c5ecac44d8152e008a04bc98, type: 3}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: InventoryManager, Assembly-CSharp
         m_MethodName: SwitchSlime
         m_Mode: 0
@@ -496,3 +496,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe1e07f2552618044bd8c1caf3e4b229, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerLifeManagerObject: {fileID: 0}
