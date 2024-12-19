@@ -15,8 +15,17 @@ public class LaserBeamMovement : MonoBehaviour
         if (target == null)
             Destroy(gameObject);
         moveDirection = (target.transform.position - transform.position).normalized * moveSpeed;
+        Debug.Log("target pos: " + target.transform.position);
+        Debug.Log("laser pos: " + transform.position);
+        Debug.Log("norm: " + (target.transform.position - transform.position).normalized);
+        Debug.Log("move direction: " + moveDirection);
+        Debug.Log("1: " + transform.rotation);
         var angle = Mathf.Atan2(moveDirection.y, moveDirection.x) * Mathf.Rad2Deg;
+        Debug.Log("x: " + moveDirection.x);
+        Debug.Log("y: " + moveDirection.y);
+        Debug.Log("angle: " + angle);
         transform.rotation = Quaternion.Euler(0, 0, angle);
+        Debug.Log("2: " + transform.rotation);
         rb.linearVelocity = new Vector2(moveDirection.x, moveDirection.y);
         Destroy(gameObject, laserBeamLife);
     }
