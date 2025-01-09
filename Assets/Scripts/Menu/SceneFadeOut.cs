@@ -5,14 +5,8 @@ public class SceneFadeOut : MonoBehaviour
 {
     public Animator transitionAnim;
 
-    void Awake()
-    {
-        Debug.Log("awake");
-    }
-
     void Start()
     {
-        Debug.Log("start");
         StartCoroutine(FadeOut());
     }
 

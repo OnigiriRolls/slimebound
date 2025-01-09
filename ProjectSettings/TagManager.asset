@@ -10,6 +10,9 @@ TagManager:
   - Big Enemy
   - Simple Laser
   - Minion
+  - Player Flying
+  - MinionBarrierLeft
+  - MinionBarrierRight
   layers:
   - Default
   - TransparentFX

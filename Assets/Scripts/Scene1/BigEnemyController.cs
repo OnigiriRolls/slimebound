@@ -45,11 +45,9 @@ public class BigEnemyController : MonoBehaviour
     {
         if (collision.CompareTag(GlobalConstants.SIMPLE_LASER) && healthSlider.IsActive())
         {
-            Debug.Log("laser beam");
             healthSlider.value += 0.05f;
             if (healthSlider.value >= 1)
             {
-                Debug.Log("enemy destroyed");
                 healthSlider.gameObject.SetActive(false);
                 gameObject.SetActive(false);
                 doorFinishZone.SetActive(true);

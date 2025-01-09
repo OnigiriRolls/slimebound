@@ -1,12 +1,12 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovement2 : MonoBehaviour
 {
     public float speed = 10f;
     public float stickRadius;
+    public bool facingLeft = true;
 
-    private bool facingLeft = true;
     private Rigidbody2D rb;
     private Vector2 movementInput;
     private Animator animator;
@@ -19,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        rb.linearVelocity = movementInput * speed;
+        rb.linearVelocity = new Vector2(movementInput.x * speed, rb.linearVelocity.y);
         SetPlayerDirection();
         SetAnimation();
     }
@@ -37,7 +37,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void SetPlayerDirection()
     {
-        if ((movementInput.x < 0 && facingLeft == false) || 
+        if ((movementInput.x < 0 && facingLeft == false) ||
             (movementInput.x > 0 && facingLeft == true))
             Flip();
     }

@@ -20975,6 +20975,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 445844138351719479, guid: a95dee3d34110584398323975827ced8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2599608839118833220, guid: a95dee3d34110584398323975827ced8, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -21066,6 +21070,22 @@ PrefabInstance:
     - target: {fileID: 4774135677234218805, guid: a95dee3d34110584398323975827ced8, type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 6478037201282013373, guid: a95dee3d34110584398323975827ced8, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6478037201282013373, guid: a95dee3d34110584398323975827ced8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6478037201282013373, guid: a95dee3d34110584398323975827ced8, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6478037201282013373, guid: a95dee3d34110584398323975827ced8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 7788430922916311983, guid: a95dee3d34110584398323975827ced8, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -21164,6 +21184,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2588027170505057530, guid: 3a881e6fe03d76841a636a15e02c0cc7, type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 3271997853601142513, guid: 3a881e6fe03d76841a636a15e02c0cc7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -21199,6 +21223,10 @@ PrefabInstance:
     - target: {fileID: 8307237107712147889, guid: 3a881e6fe03d76841a636a15e02c0cc7, type: 3}
       propertyPath: m_Name
       value: MenuCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 8307237107712147889, guid: 3a881e6fe03d76841a636a15e02c0cc7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

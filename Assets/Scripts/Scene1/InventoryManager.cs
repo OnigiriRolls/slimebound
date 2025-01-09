@@ -30,7 +30,7 @@ public class InventoryManager : MonoBehaviour
             }
             else
             {
-                notificationController.ShowNotification(GlobalConstants.MESSAGE_NO_SWITCH_WHEN_IN_STEALTH);
+                notificationController.ShowNotification(GlobalConstants.MESSAGE_NO_SWITCH_NOW);
             }
         }
     }

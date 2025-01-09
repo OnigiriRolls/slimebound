@@ -3,6 +3,7 @@ using UnityEngine;
 public class GlobalConstants : MonoBehaviour
 {
     public static readonly string PLAYER_UNDETACTABLE = "Player Undetactable";
+    public static readonly string PLAYER_FLYING = "Player Flying";
     public static readonly string PLAYER = "Player";
 
     public static readonly string BIG_ENEMY = "Big Enemy";
@@ -15,7 +16,7 @@ public class GlobalConstants : MonoBehaviour
     public static readonly string ANIM_COND_OPEN = "open";
     public static readonly string ANIM_COND_DESTROY = "destroy";
 
-    public static readonly string MESSAGE_NO_SWITCH_WHEN_IN_STEALTH = "Can't switch now!";
+    public static readonly string MESSAGE_NO_SWITCH_NOW = "Can't switch now!";
     public static readonly string MESSAGE_WIN = "WIN";
     public static readonly string MESSAGE_GAME_OVER = "GAME OVER";
     public static readonly string MESSAGE_STEALTH_ABILITY = "Press SPACE to use ability";

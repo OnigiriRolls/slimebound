@@ -5,16 +5,16 @@ public class FlyAbility : MonoBehaviour
 {
     public float speed = 10f;
     public float stickRadius;
+    public bool facingLeft = false;
 
     private Rigidbody2D rb;
     private Vector2 movementInput;
     private Animator animator;
-    private bool facingLeft = false;
     private bool isFlying = false;
 
-    [SerializeField] private Transform groundCheckPosition; 
-    [SerializeField] private float groundCheckRadius = 0.2f; 
-    [SerializeField] private LayerMask groundLayer; 
+    [SerializeField] private Transform groundCheckPosition;
+    [SerializeField] private float groundCheckRadius = 0.2f;
+    [SerializeField] private LayerMask groundLayer;
 
     private void Awake()
     {
@@ -26,7 +26,7 @@ public class FlyAbility : MonoBehaviour
     {
         if (IsGrounded())
         {
-            if (isFlying) 
+            if (isFlying)
             {
                 SetAnimation(false);
             }
@@ -34,7 +34,7 @@ public class FlyAbility : MonoBehaviour
         }
         else
         {
-            if (!isFlying) 
+            if (!isFlying)
             {
                 SetAnimation(true);
             }
@@ -52,6 +52,8 @@ public class FlyAbility : MonoBehaviour
     {
         isFlying = isFlyingNow;
         animator.SetBool("fly", isFlyingNow);
+        if (isFlyingNow) gameObject.tag = GlobalConstants.PLAYER_FLYING;
+        else gameObject.tag = GlobalConstants.PLAYER;
     }
 
     private void SetPlayerDirection()
