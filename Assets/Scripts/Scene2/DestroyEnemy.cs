@@ -1,9 +1,9 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class DestroyMagicPower : MonoBehaviour
+public class DestroyEnemy : MonoBehaviour
 {
-    public GameObject slider;
+    public GameObject spawner;
     public GameObject barrier;
     public float damage = 0.1f;
     [SerializeField] private Slider healthSlider;
@@ -22,8 +22,7 @@ public class DestroyMagicPower : MonoBehaviour
             if (healthSlider.value >= 1)
             {
                 healthSlider.gameObject.SetActive(false);
-                if(slider != null)
-                    slider.SetActive(true);
+                spawner.SetActive(false);
                 barrier.SetActive(false);
                 Destroy(collision.gameObject);
                 gameObject.SetActive(false);

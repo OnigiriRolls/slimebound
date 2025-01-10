@@ -5,13 +5,13 @@ public class LaserBeamMovement2 : MonoBehaviour
     public float moveSpeed = 5f;
     public float laserBeamLife = 5f;
     Rigidbody2D rb;
-    PlayerLife target;
+    ParentPlayerEmptyScript target;
     Vector2 moveDirection;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        target = FindFirstObjectByType<PlayerLife>();
+        target = FindFirstObjectByType<ParentPlayerEmptyScript>();
         if (target == null)
             Destroy(gameObject);
         moveDirection = (target.transform.position - transform.position).normalized * moveSpeed;

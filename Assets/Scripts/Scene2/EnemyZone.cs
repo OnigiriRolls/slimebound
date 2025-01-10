@@ -11,50 +11,43 @@ public class EnemyZone : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag.Contains(GlobalConstants.PLAYER))
+        if (collision.tag.Contains(GlobalConstants.PARENT))
         {
             StopCoroutine(WaitLaser());
             StopCoroutine(WaitDamage());
-            Debug.Log("enter");
             laserSpawner.SetActive(true);
-            //if (!barrier.activeInHierarchy)
+            if (!barrier.activeInHierarchy)
                 StartCoroutine(WaitLaser());
         }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.tag.Contains(GlobalConstants.PLAYER))
+        if (collision.tag.Contains(GlobalConstants.PARENT))
         {
-            Debug.Log("exit");
             laserSpawner.SetActive(false);
             healthSlider.SetActive(false);
-           // if (!barrier.activeInHierarchy)
-            //{
-                //Debug.Log("stop");
+            if (!barrier.activeInHierarchy)
+            {
                 StopCoroutine(WaitLaser());
                 StopCoroutine(WaitDamage());
-           // }
+            }
         }
     }
 
     IEnumerator WaitLaser()
     {
-//Debug.Log("laser enter");
         yield return new WaitForSeconds(laserTime);
         laserSpawner.SetActive(false);
         healthSlider.SetActive(true);
-        //Debug.Log("laser exit");
         StartCoroutine(WaitDamage());
     }
 
     IEnumerator WaitDamage()
     {
-        //Debug.Log("damage enter");
         yield return new WaitForSeconds(damageTime);
         healthSlider.SetActive(false);
         laserSpawner.SetActive(true);
-        //Debug.Log("damage exit");
         StartCoroutine(WaitLaser());
     }
 }

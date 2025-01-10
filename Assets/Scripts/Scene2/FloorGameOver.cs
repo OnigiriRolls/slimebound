@@ -15,5 +15,10 @@ public class FloorGameOver : MonoBehaviour
             menu.SetActive(true);
             Destroy(collision.gameObject);
         }
+
+        if (collision.CompareTag(GlobalConstants.MONSTER))
+        {
+            Destroy(collision.gameObject);
+        }
     }
 }

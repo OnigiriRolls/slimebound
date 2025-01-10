@@ -6,6 +6,7 @@ public class PlayerMovement2 : MonoBehaviour
     public float speed = 10f;
     public float stickRadius;
     public bool facingLeft = true;
+    public GameObject parent;
 
     private Rigidbody2D rb;
     private Vector2 movementInput;
@@ -13,7 +14,7 @@ public class PlayerMovement2 : MonoBehaviour
 
     private void Awake()
     {
-        rb = GetComponent<Rigidbody2D>();
+        rb = parent.GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
     }
 
