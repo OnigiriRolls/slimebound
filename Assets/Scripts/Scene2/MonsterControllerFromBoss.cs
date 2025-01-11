@@ -1,19 +1,19 @@
 using UnityEngine;
 
-public class MinionController : MonoBehaviour
+public class MonsterControllerFromBoss : MonoBehaviour
 {
     public GameObject particles;
+    public float moveSpeed = 3f;
     public float effectDuration = 0.1f;
-    public float moveSpeed = 5f;
 
     Rigidbody2D rb;
-    PlayerMovement target;
-    private Vector2 movement;
+    Vector2 movement;
+    ParentPlayerEmptyScript target;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        target = FindFirstObjectByType<PlayerMovement>();
+        target = FindFirstObjectByType<ParentPlayerEmptyScript>();
     }
 
     void Update()
@@ -34,15 +34,6 @@ public class MinionController : MonoBehaviour
     void FixedUpdate()
     {
         rb.linearVelocity = movement;
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag(GlobalConstants.SIMPLE_LASER) || collision.CompareTag(GlobalConstants.LASER_BEAM))
-        {
-            Destroy(collision.gameObject);
-            Destroy(gameObject);
-        }
     }
 
     private void OnDestroy()

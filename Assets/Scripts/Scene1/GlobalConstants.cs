@@ -19,6 +19,9 @@ public class GlobalConstants : MonoBehaviour
     public static readonly string ANIM_COND_SCAN = "scan";
     public static readonly string ANIM_COND_OPEN = "open";
     public static readonly string ANIM_COND_DESTROY = "destroy";
+    public static readonly string ANIM_COND_ATTACK_AND_SHOOT = "attackAndShoot";
+    public static readonly string ANIM_COND_JUMP = "jump";
+    public static readonly string ANIM_COND_ATACK_SHORT = "attackShort";
 
     public static readonly string MESSAGE_NO_SWITCH_NOW = "Can't switch now!";
     public static readonly string MESSAGE_WIN = "WIN";

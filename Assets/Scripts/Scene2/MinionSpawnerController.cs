@@ -6,15 +6,26 @@ public class MinionSpawnerController : MonoBehaviour
     public GameObject minion;
     public float pauseTime = 1.5f;
 
+    private Coroutine waitCoroutine;
+
     void OnEnable()
     {
-        StartCoroutine(Wait());
+        if(waitCoroutine != null)
+        {
+            StopCoroutine(waitCoroutine);
+            waitCoroutine = null;
+        }
+        waitCoroutine = StartCoroutine(Wait());
     }
 
     IEnumerator Wait()
     {
         yield return new WaitForSeconds(pauseTime);
-        Instantiate(minion, transform.position, Quaternion.identity);
+        if (minion != null)
+        {
+            minion.transform.position = transform.position;
+            minion.SetActive(true);
+        }
         gameObject.SetActive(false);
     }
 }

@@ -7,15 +7,14 @@ public class MinionController2 : MonoBehaviour
     public float effectDuration = 0.1f;
     public float moveSpeed = 5f;
     public GameObject target;
+    public GameObject spawner;
 
     Rigidbody2D rb;
     private Vector2 movement;
-    private DeactivateAndActivateGameObjects spawner;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        spawner = FindFirstObjectByType<DeactivateAndActivateGameObjects>();
     }
 
     void Update()
@@ -43,15 +42,10 @@ public class MinionController2 : MonoBehaviour
         if (collision.CompareTag(GlobalConstants.SIMPLE_LASER))
         {
             Destroy(collision.gameObject);
-            Destroy(gameObject);
-            return;
+            gameObject.SetActive(false);
+            GameObject effect = Instantiate(particles, transform.position, Quaternion.identity);
+            Destroy(effect, effectDuration);
+            spawner.SetActive(true);
         }
-    }
-
-    private void OnDestroy()
-    {
-        GameObject effect = Instantiate(particles, transform.position, Quaternion.identity);
-        Destroy(effect, effectDuration);
-        spawner.ActivateAndDeactivate();
     }
 }

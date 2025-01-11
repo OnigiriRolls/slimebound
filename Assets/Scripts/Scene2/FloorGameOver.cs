@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 
 public class FloorGameOver : MonoBehaviour
@@ -5,6 +6,7 @@ public class FloorGameOver : MonoBehaviour
     public GameObject menu;
     public GameObject restartButton;
     public GameObject continueButton;
+    public TextMeshProUGUI text;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -12,6 +14,7 @@ public class FloorGameOver : MonoBehaviour
         {
             continueButton.SetActive(false);
             restartButton.SetActive(true);
+            text.SetText(GlobalConstants.MESSAGE_GAME_OVER);
             menu.SetActive(true);
             Destroy(collision.gameObject);
         }
