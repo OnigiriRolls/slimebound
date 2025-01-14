@@ -3,6 +3,7 @@ using UnityEngine.InputSystem;
 
 public class InventoryManager : MonoBehaviour
 {
+    public GameObject lockedSlimes;
     public GameObject robotSlimeImage;
     public GameObject stealthSlimeImage;
     public GameObject robotSlime;
@@ -19,7 +20,7 @@ public class InventoryManager : MonoBehaviour
 
     public void SwitchSlime(InputAction.CallbackContext context)
     {
-        if (context.performed)
+        if (context.performed && !lockedSlimes.gameObject.activeInHierarchy)
         {
             if (stealthSlime.activeInHierarchy == false || !stealthSlime.CompareTag(GlobalConstants.PLAYER_UNDETACTABLE))
             {

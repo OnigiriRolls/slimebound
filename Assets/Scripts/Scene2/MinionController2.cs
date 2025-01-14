@@ -47,5 +47,12 @@ public class MinionController2 : MonoBehaviour
             Destroy(effect, effectDuration);
             spawner.SetActive(true);
         }
+        else if (collision.CompareTag(GlobalConstants.PARENT))
+        {
+            gameObject.SetActive(false);
+            GameObject effect = Instantiate(particles, transform.position, Quaternion.identity);
+            Destroy(effect, effectDuration);
+            spawner.SetActive(true);
+        }
     }
 }

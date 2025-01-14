@@ -20,7 +20,6 @@ public class BossZone : MonoBehaviour
     {
         if (collision.CompareTag(GlobalConstants.PARENT))
         {
-            Debug.Log("start fight");
             stopZone.SetActive(true);
             fightManager.StopAttackMonster();
             rb.constraints = RigidbodyConstraints2D.FreezeAll;

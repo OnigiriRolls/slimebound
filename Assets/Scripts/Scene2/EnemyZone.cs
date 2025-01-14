@@ -8,9 +8,11 @@ public class EnemyZone : MonoBehaviour
     public GameObject barrier;
     public float laserTime = 4;
     public float damageTime = 2;
+    public float pauseTime = 1.5f;
 
     private Coroutine laserCoroutine;  
     private Coroutine damageCoroutine; 
+    private Coroutine pauseCoroutine; 
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -27,8 +29,10 @@ public class EnemyZone : MonoBehaviour
     {
         if (collision.tag.Contains(GlobalConstants.PARENT))
         {
-            laserSpawner.SetActive(false);
-            healthSlider.SetActive(false);
+            if(laserSpawner != null) 
+                laserSpawner.SetActive(false);
+            if(healthSlider != null)
+                healthSlider.SetActive(false);
             StopAllActiveCoroutines();
         }
     }
@@ -46,6 +50,12 @@ public class EnemyZone : MonoBehaviour
             StopCoroutine(damageCoroutine);
             damageCoroutine = null;
         }
+
+        if (pauseCoroutine != null)
+        {
+            StopCoroutine(pauseCoroutine);
+            pauseCoroutine = null;
+        }
     }
 
     IEnumerator WaitLaser()
@@ -60,7 +70,15 @@ public class EnemyZone : MonoBehaviour
     {
         yield return new WaitForSeconds(damageTime);
         healthSlider.SetActive(false);
+        laserSpawner.SetActive(false);
+        pauseCoroutine = StartCoroutine(WaitPause());
+    }
+
+    IEnumerator WaitPause()
+    {
+        yield return new WaitForSeconds(pauseTime);
         laserSpawner.SetActive(true);
+        healthSlider.SetActive(false);
         laserCoroutine = StartCoroutine(WaitLaser());
     }
 }

@@ -6,6 +6,7 @@ public class MenuController : MonoBehaviour
 
     void Start()
     {
+        Debug.Log("deactivate?");
         deactivateAndActivateGameObjects = GetComponent<DeactivateAndActivateGameObjects>();
         deactivateAndActivateGameObjects.ActivateAndDeactivate();
     }

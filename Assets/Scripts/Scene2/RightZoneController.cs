@@ -15,7 +15,7 @@ public class RightZoneController : MonoBehaviour
     {
         if (collision.CompareTag(GlobalConstants.PARENT))
         {
-            fightManager.StartAttackMonster();
+            //fightManager.StartAttackMonster();
         }
     }
 }

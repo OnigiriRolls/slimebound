@@ -1,20 +1,21 @@
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.InputSystem;
 
 public class PlayerAbility : MonoBehaviour
 {
     public Animator animator;
+    public AudioResource audioResource;
     public TextMeshProUGUI cooldownText;
     public float cooldownDuration = 5f;
 
     private float cooldownTimeRemaining = 0f;
-    private AudioSource stealthSound;
+    private AudioSource audioSource;
 
     void Start()
     {
-        stealthSound = GetComponent<AudioSource>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     public void Attack(InputAction.CallbackContext context)
@@ -30,7 +31,11 @@ public class PlayerAbility : MonoBehaviour
             tag = GlobalConstants.PLAYER_UNDETACTABLE;
             animator.SetLayerWeight(1, 1f);
             animator.Play("Hide", 1);
-            if (stealthSound != null) stealthSound.Play();
+            if (audioSource != null)
+            {
+                audioSource.resource = audioResource;
+                audioSource.Play();
+            }
         }
     }
 
